@@ -1,17 +1,10 @@
-# Open With PDF.js
+### Update:
+
+Firefox, as of version 70, is the best PDF reader for non-Retina MacBooks. I've switched to it and no longer use this hacked-together solution.
+
+----
 
 This is a tiny "application" for macOS that opens PDF files in your default browser, using Mozilla's [PDF.js](https://mozilla.github.io/pdf.js/) viewer.
-
-Using PDF.js on Safari or Chrome is, in my humble opinion, the best option for viewing PDFs on macOS at the moment. Not because PDF.js is good, but because the competition is so bad:
-
-* Preview renders PDFs with extreme amounts of blur applied - see [Apple Support Forums](https://discussions.apple.com/thread/8226552), [MacRumors](https://forums.macrumors.com/threads/pdfs-and-preview-—-why-so-blurry.2145687/), [Reddit #1](https://old.reddit.com/r/MacOS/comments/8tpdg9/is_blurry_pdf_rendering_in_preview_fixed_in/), [Reddit #2](https://www.reddit.com/r/apple/comments/72lxjx/macos_high_sierra_blurry_pdfs_in_preview/), [StackExchange #1](https://apple.stackexchange.com/questions/357194/how-to-make-preview-render-pdf-docs-with-crisp-fonts-on-macbook-air-without-ret?rq=1), [StackExchange #2](https://apple.stackexchange.com/questions/347981/blurry-pdf-in-preview-safari-on-osx-mojave).
-* Every other application based on PDFKit (e.g. Safari, Skim) has the same issue.
-* Chrome's PDF reader does not remember scroll positions ([issue 65244](https://bugs.chromium.org/p/chromium/issues/detail?id=65244)).
-* Firefox has egregious power management issues on Macs.
-* Foxit Reader has an awful interface, broken controls and is proprietary to boot.
-* Adobe Reader is 200 MiB of borderline malware that expects me to run an installer.
-
-Since none of the options appealed to me very much, I wrote this script.
 
 ## Download
 
